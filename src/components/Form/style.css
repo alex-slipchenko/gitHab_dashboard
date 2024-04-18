@@ -1,0 +1,55 @@
+form {
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+form div:first-child {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+form .error {
+  margin-right: auto;
+  padding: 3px;
+  margin-bottom: 10px;
+  display: block;
+  color: red;
+  border: 1px solid red;
+}
+.wrap_rezult {
+  display: flex;
+  flex-direction: column;
+}
+.wrap_rezult form button {
+  margin: 0 auto;
+}
+form img {
+  max-width: 244px;
+}
+
+form .form__resset {
+  margin: 0 auto;
+}
+form ul {
+  padding: 10px;
+}
+form li {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+form li svg {
+  margin-right: 5px;
+}
+form li:nth-child(1) svg {
+  color: #597392;
+}
+form li:nth-child(2) svg {
+  color: #f6d258;
+}
+form li:nth-child(3) {
+  font-weight: bold;
+  color: #0c0c0c;
+}
